@@ -7,7 +7,7 @@
 /* Sidebar Menu */
 .sidenav {
     height: 100%;/* Full-height: remove this is you want "auto" height*/
-    width: 160px; /* Set width of sidebar */
+    width: 6%; /* Set width of sidebar WAS 160PX*/
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /*Stay on top */
     top: 0; /* Stay at the top */

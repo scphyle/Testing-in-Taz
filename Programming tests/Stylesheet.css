@@ -49,10 +49,10 @@
 }
 
 .movie{
-    min-width: fit-content;
-    max-width: fit-content;
-    min-height: fit-content;
-    max-height: fit-content;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
     margin-left: 160px;
     padding: 0px 10px;
 }
@@ -60,6 +60,19 @@
 .description {
     margin-left: 160px;
     padding: 0px 10px;
+}
+
+.bigButton{
+    padding: 50px;
+    min-height:auto;
+    color:rgba(236, 155, 3, 0.733);
+    text-align: center;
+   
+
+}
+.bigButton:hover{
+    min-height:auto;
+    color:rgba(139, 91, 0, 0.733)
 }
 
 

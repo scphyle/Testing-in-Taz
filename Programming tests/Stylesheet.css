@@ -1,15 +1,15 @@
 
 /* Menu Icon */
 .menuIcon {
-  width: 2.5%; /* Changes length of hamburger lines */
-  height: 4px; /* changes thickness og hamburger lines */
+  width: 35px; /* Changes length of hamburger lines */
+  height: 5px; /* changes thickness og hamburger lines */
   background-color: #000000;
-  margin: .4% 0; /* Changes space between hamburger slices; 0 is space from the left */
+  margin: 6px 0; /* Changes space between hamburger slices; 0 is space from the left */
 }
 
 /* Sidebar Menu */
 .sidenav {
-    height:auto;/* Full-height: remove this is you want "auto" height*/
+    height:100%;/* Full-height: remove this is you want "auto" height*/
     width: 160px; /* Set width of sidebar WAS 160PX*/
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /*Stay on top */
@@ -44,19 +44,19 @@
 /* Style page content */
 .title {
     text-align: center;
-    margin-left: 6%; /* Same as the width of the sidebar was 160px "test"*/
+    margin-left: 160px; 
     padding: 0px 10px;
 }
 
 .introduction {
-    margin-left: 6%; /* Test*/
+    margin-left: 160px;
     padding: 0px 10px;
 }
 
 /* Test */
 .heading {
     text-align: center;
-    margin-left: 6%; /*test*/
+    margin-left: 160px;
     padding: 0px 10px;
     font-size: 25px;
 }
@@ -66,12 +66,12 @@
     max-width: auto;
     min-height: auto;
     max-height: auto;
-    margin-left: 6%; /*test*/
+    margin-left: 160px;
     padding: 0px 10px;
 }
 
 .description {
-    margin-left: 6%;/*test*/
+    margin-left: 160px;
     padding: 0px 10px;
 }
 

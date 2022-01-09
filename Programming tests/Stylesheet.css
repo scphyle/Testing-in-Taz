@@ -1,7 +1,15 @@
 #main {
-    background-color: hsla(132, 71%, 15%, 0.843);
+    background-color: auto;
     font-family: Garamond, serif;
     
+}
+
+/* Menu Icon */
+.menuIcon {
+  width: 2.5%; /* Changes length of hamburger lines */
+  height: 4px; /* changes thickness og hamburger lines */
+  background-color: #000000;
+  margin: .4% 0; /* "0.5% changes space between hamburger slices; 0 is space from the wall */
 }
 
 /* Sidebar Menu */
@@ -15,7 +23,7 @@
     background-color: #111; /*black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top:20px;
-}
+} 
 
 /* The navigation menu links */
 .sidenav a {

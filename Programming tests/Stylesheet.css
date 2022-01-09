@@ -1,15 +1,10 @@
-#main {
-    background-color: auto;
-    font-family: Garamond, serif;
-    
-}
 
 /* Menu Icon */
 .menuIcon {
   width: 2.5%; /* Changes length of hamburger lines */
   height: 4px; /* changes thickness og hamburger lines */
   background-color: #000000;
-  margin: .4% 0; /* "0.5% changes space between hamburger slices; 0 is space from the wall */
+  margin: .4% 0; /* Changes space between hamburger slices; 0 is space from the left */
 }
 
 /* Sidebar Menu */
@@ -22,7 +17,7 @@
     left: 0;
     background-color: #111; /*black*/
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top:20px;
+    padding-top: .8%; /* Same as 20px */
 } 
 
 /* The navigation menu links */
@@ -41,22 +36,27 @@
     /* background-image: url("https://tse2.mm.bing.net/th?id=OIP.SBKDcybFbEWTKACSXLso2wHaCn&pid=Api");*/
 }
 
+#main {
+    background-color: auto;
+    font-family: Garamond, serif;
+    
+}
 /* Style page content */
 .title {
     text-align: center;
-    margin-left: 160px; /* Same as the width of the sidebar */
+    margin-left: 6%; /* Same as the width of the sidebar was 160px "test"*/
     padding: 0px 10px;
 }
 
 .introduction {
-    margin-left: 160px;
+    margin-left: 6%; /* Test*/
     padding: 0px 10px;
 }
 
 /* Test */
 .heading {
     text-align: center;
-    margin-left: 160px;
+    margin-left: 6%; /*test*/
     padding: 0px 10px;
     font-size: 25px;
 }
@@ -66,12 +66,12 @@
     max-width: auto;
     min-height: auto;
     max-height: auto;
-    margin-left: 160px;
+    margin-left: 6%; /*test*/
     padding: 0px 10px;
 }
 
 .description {
-    margin-left: 160px;
+    margin-left: 6%;/*test*/
     padding: 0px 10px;
 }
 

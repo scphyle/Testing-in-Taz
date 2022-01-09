@@ -1,3 +1,8 @@
+#main {
+    background-color: #0b4116d7;
+    font-family: Garamond, serif;
+    
+}
 
 /* Sidebar Menu */
 .sidenav {
@@ -52,7 +57,7 @@
     min-width: fit-content;
     max-width: fit-content;
     min-height: fit-content;
-    max-height: fit-content;
+    max-height:fit-content;
     margin-left: 160px;
     padding: 0px 10px;
 }
